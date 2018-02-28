@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/high_level_spring_mobility -n .:../src $*
+# for shared lib, use: opp_run -l ../src/high_level_spring_mobility -n .:../src $*
